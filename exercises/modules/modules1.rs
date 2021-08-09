@@ -3,8 +3,8 @@
 
 // I AM NOT DONE
 
-mod sausage_factory {
-    fn make_sausage() {
+pub mod sausage_factory {
+    pub fn make_sausage() {
         println!("sausage!");
     }
 }
