@@ -11,6 +11,13 @@
 
 // Put your function here!
 // fn ..... {
+fn calculate_apple_price(x: u8) -> u8 {
+    if x < 50 {
+        x * 2
+    } else {
+        x
+    }
+}
 
 // Don't modify this function!
 #[test]

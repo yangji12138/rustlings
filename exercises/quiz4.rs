@@ -4,6 +4,15 @@
 // - Macros
 
 // Write a macro that passes the quiz! No hints this time, you can do it!
+mod macros {
+    pub use my_macro;
+    #[macro_export]
+    macro_rules! my_macro {
+        ($val:expr) => {
+            "Hello ".to_owned() + $val
+        };
+    }
+}
 
 // I AM NOT DONE
 
